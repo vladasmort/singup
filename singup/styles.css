@@ -1,0 +1,141 @@
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+.container {
+	max-width: 1536px;
+	margin: 0 auto;
+	min-height: 1040px;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.titles {
+	margin: 0;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 50px;
+	margin-bottom: 60px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	margin-bottom: 30px;
+}
+.signup{
+	background-color: #43632c;
+	display: flex;
+	border-radius: 15px;
+	width: 100%;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 700;
+	border-radius: 15px;
+	border: none;
+	margin-bottom: 90px;
+}
+.field {
+	display: flex;
+	flex-direction: column;
+}
+.field input {
+	border-radius: 10px;
+	padding: 0 10px;
+	border: 1px solid #e4c0c0;
+	height: 32px;
+	font-size: 10px;
+}
+.field label {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+}
+.terms {
+	display: flex;
+	justify-content: start;
+	gap: 6px;
+}
+.main-grid {
+	display: grid;
+	grid-template: 1fr / 1fr 1fr;
+}
+.box { 
+	width: 410px;
+	max-height: 650px;
+}
+.terms label {
+	display: flex;
+	color: black;
+	font-size: 10px;
+}
+
+.terms input {
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+#terms {
+	width: 9px;
+	height: 9px;
+}
+
+.or {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.or-text {
+	position: relative;
+	background-color: white;
+	font-size: 10px;
+	width: min-content;
+	top: -17px;
+	left: 50%;
+}
+.buten button {
+	padding: 4px 20px;
+	border-radius: 10px;
+	gap: 10px;
+	border: 1px solid #f0d6d6;
+	display: flex;
+	color: #000;
+	font-size: 12px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	align-items: center;
+	background-color: white;
+	margin: 0;
+}
+.buten {
+	gap: 23px;
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.last-resort a {
+	text-decoration: none;
+	color: #0e40f5;
+}
+.last-resort {
+	color: #000;
+	font-size: 14px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.background {
+	background-image: url(img/chris-lee-70l1tDAI6rM-unsplash\ 1.png);
+	background-size: cover;
+}
